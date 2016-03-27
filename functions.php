@@ -585,7 +585,7 @@ class zerif_ourfocus extends WP_Widget {
 
         ?>
 
-        <div class="col-lg-3 col-sm-3 focus-box" data-scrollreveal="enter left after 0.15s over 1s">
+        <div class="col-lg-2 col-sm-2 focus-box" data-scrollreveal="enter left after 0.15s over 1s">
 
 			<?php if( !empty($instance['image_uri']) ): ?>
             <div class="service-icon panel">

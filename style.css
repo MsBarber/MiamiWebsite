@@ -1796,6 +1796,17 @@ ul.nav > li.current_page_item.current > a:before {
 /*---------------------------------------
  **   Section: Our focus             -----
 -----------------------------------------*/
+#services-box {
+	margin: 16px auto;
+    padding: 10px;
+    border: 10px double #333;
+    background-color: #fff;
+}
+
+#services-box blockquote {
+	margin: 10px 10px;
+}
+
 .focus-box .service-icon .pixeden  {
 	border-radius: 50%;
 }
