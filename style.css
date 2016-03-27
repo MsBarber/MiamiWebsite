@@ -1362,7 +1362,7 @@ object {
 .section-header .section-legend {
 	font-size: 16px;
 	margin-bottom: 0;
-	color: #808080;
+	color: #404040;
 	padding-top: 0;
 }
 /* PRE LOADER */
@@ -1447,7 +1447,8 @@ object {
 
 }
 .navbar {
-	background: #FFF;
+	/*background: #FFF;*/
+	background-color: #3E4137;
 	border: 0;
 	border-radius: 0 !important;
 	text-align: left;
@@ -1476,7 +1477,8 @@ object {
 	margin-right: 0 !important;
 }
 .navbar-inverse .navbar-nav>li>a {
-	color: #404040;
+	/*color: #404040;*/
+	color: #fff; 
 	padding: 0;
 	line-height: 35px;
 }
@@ -1519,7 +1521,8 @@ object {
 }
 .navbar-inverse .navbar-nav ul.sub-menu li:hover > a,
 .navbar-inverse .navbar-nav ul.sub-menu li.link-focus > a {
-	color:#e96656;
+	/*color:#e96656;*/
+	color: #65CF26;
 }
 .navbar-inverse ul ul {
 	left: -999em;
@@ -1552,7 +1555,8 @@ object {
 }
 .navbar-inverse .navbar-nav>li>a:hover, 
 .navbar-inverse .navbar-nav>li>a.link-focus {
-	color: #e96656;
+	/*color: #e96656;*/
+	color: #65CF26;
 	outline: none;
 }
 .navbar-toggle {
@@ -1606,7 +1610,7 @@ object {
 }
 .navbar-inverse .navbar-nav>li>a:hover, 
 .navbar-inverse .navbar-nav>li>a:focus {
-	color: #e96656;
+	color: #65CF26;
 }
 .navbar-inverse .navbar-nav>li.current>a {
 	color: #e96656;
@@ -1791,7 +1795,8 @@ ul.nav > li.current_page_item.current > a:before {
 .focus {
 	padding-bottom: 100px;
 	overflow: hidden;
-	background: #FFFFFF;
+	/*background: #FFFFFF;*/
+	background-color: #B9BE92;
 
 }
 .focus .row {
@@ -1809,9 +1814,9 @@ ul.nav > li.current_page_item.current > a:before {
 	margin-bottom: 30px;
 	width: 145px;
 	height: 145px;
-	margin: auto;
+	margin: 20px auto;
 	border-radius: 50%;
-	border: 10px solid #ececec;
+	border: 10px solid #756c6c;
 	margin-bottom: 20px;
 	position: relative;
 	-webkit-transition: all 0.2s ease-in-out;
@@ -1862,7 +1867,7 @@ ul.nav > li.current_page_item.current > a:before {
 }
 .focus-box p {
 	font-size: 14px;
-	color: #808080;
+	color: #404040;
 }
 /*----OTHER FOCUSES ----*/
 .other-focuses {
