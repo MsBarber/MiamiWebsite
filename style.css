@@ -1686,6 +1686,7 @@ ul.nav > li.current_page_item.current > a:before {
 	background-color: #ccc;
     border: 0;
     height: 4px;
+    width: 70%;
     margin-bottom: 0;
 }
 /* Short Messages */
