@@ -964,12 +964,20 @@ function zerif_customize_register( $wp_customize ) {
 		
         //my own jazz
         
+        //(name,[]) the name(zerif_aboutus_neilsbox) links the control and its settings
+        // zerif_sanitize_text => is around line 2035, sanitizes text
+        //default => is default value.... dont know what 'zerif-lite' is there
+        // transport => indicates that its should 'post' message????
         $wp_customize->add_setting( 'zerif_aboutus_neilsbox', array(
 			'sanitize_callback' => 'zerif_sanitize_text',
 			'default' => __('Neil is cool.','zerif-lite'),
 			'transport' => 'postMessage'
 		));
         
+        //add_control a form of input. (name,[]) the name(zerif_aboutus_neilsbox)
+        //label => the title of the input field
+        //section => the section under which the control will be
+        // priority => no idea
         $wp_customize->add_control( 'zerif_aboutus_neilsbox' , array(
 			'label' => __( 'Neils Box', 'zerif-lite' ),
 			'section' => 'zerif_aboutus_main_section',
@@ -2027,6 +2035,9 @@ function zerif_customize_preview_js() {
 }
 add_action( 'customize_preview_init', 'zerif_customize_preview_js' );
 
+
+
+//Sanitizer -> common callback
 function zerif_sanitize_text( $input ) {
     return wp_kses_post( force_balance_tags( $input ) );
 }
